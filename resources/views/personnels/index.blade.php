@@ -36,7 +36,7 @@
 
 </header>
 <body>
-    <a href="{{ route('personnels.create') }}" class="btn btn-primary">Ajouter un personnel</a>
+    {{-- <a href="{{ route('personnels.create') }}" class="btn btn-primary">Ajouter un personnel</a> --}}
     <button type="button" onclick="window.location='{{ route('personnels.create') }}'" class="btn btn-primary">Ajouter un personnel</button>
 
 
